@@ -16,7 +16,7 @@
 
 <html>
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Climaxtion</title>
     <link rel="stylesheet" href="css/imports.css" type="text/css" />
@@ -24,14 +24,160 @@
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link rel="stylesheet" href="css/content.css" type="text/css" />
     <link rel="stylesheet" href="css/effects.css" type="text/css" />
-  </head>
+    
+      <style>
 
-  <body>
-    <h1>Climaxtion</h1>
-    <p>Climaxtion prevents negative climate change enduring our Planet Earth.</p>
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    <script src="js/index.js"></script>
-    <script src="js/effects.js"></script>
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 14px;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+header {
+  padding: 0%;
+  text-align: center;
+}
+header img{
+  display: block;
+  width: 1460px;
+  height: 600px;
+  image-resolution: initial;
+}
+#navbar {
+  background-color: rgba(255, 255, 255, 0.516);
+  position: fixed;
+  top: 0;
+  left:-10px;
+  width: 101%;
+  display: block;
+  transition: top 0.3s;
+  margin: auto;
+  border-radius: 1px;
+}
+#navbar a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+a:hover{
+  color: #ffffff;
+}
+a:hover:after{
+  width: 100%;
+}
+.centered {
+  font-family: Verdana, Arial, Helvetica, bold , sans-serif;
+  position: absolute;
+  background-color: #ffffff97;
+  border-radius: 10px;
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: x-large;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -49%)
+}
+.text_1 {
+  position: absolute;
+  background-color: #ffffff97;
+  font-family: Verdana, Arial, Helvetica, bold , sans-serif;
+  border-radius: 10px;
+  color: black;
+  font-size:larger;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  top: 70%;
+  left: 5%;
+}
+
+</style>
+
+    </head>
+
+     <body>
+  <!-- Header Start -->
+       <div class="header">
+         <header>
+            <img src="Head.jfif" alt="header_img">
+            <br><br>
+            <div class="centered">
+            <h1>Climaxtion</h1>
+          </div>
+            <div class="text_1">
+            <p>Climaxtion is a group made by 5 students to prevent bad and further negative climate changes enduring our Planet Earth.</p>
+            </div>
+
+      </div>
+          </header>  
+  <!-- Header Ends -->
+
+
+  <!-- Navbar Starts-->
+    <div id="navbar">
+      <a href="#home">Home</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#maincauses">Main Causes</a>
+      <a href="#ourteam">Our Team</a>
+    </div>
+  <!-- Navbar Ends -->
+
+
+
+
+    <div style="padding:15px 15px 2500px;font-size:30px;margin-top:30px;">
+      <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, 
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+      enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </div>
+
+
   </body>
 
 </html>
+
+
