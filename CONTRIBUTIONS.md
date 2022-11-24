@@ -7,3 +7,4 @@ YOUR NAME               IDEA                                                    
 Swastik                 Scrolling up and down should cause animation effects(only once)               Not To Be Implemented (Dont delete)
 Swastik                 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_smooth_scroll   Not Completed
 Swastik                 https://www.w3schools.com/css/css_border.asp                                  Not Completed
+Swastik                 Responsive web                                                                TO BE DONE ASAP
