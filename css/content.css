@@ -1,0 +1,50 @@
+body {
+  color: var(--bodyColor);
+  font-family: 'Poppins', sans-serif;
+}
+
+div {
+  padding: 2.5%;
+  background-color: var(--divBackground);
+  border-radius: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first_section {
+  margin-top: 10%;
+}
+
+footer {
+  background-color: var(--navbarBackgroundColor);
+  color: var(--navbarColor);
+  padding: 2.5%;
+  position: relative;
+  width: calc(100% + 77.5px);
+  bottom: -67.5px;
+  left: -67.5px;
+  user-select: none;
+  text-align: center;
+  z-index: 65535;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flexbox *:not(:first-child) {
+  margin-left: 15px;
+}
+
+.flexbox * {
+  text-align: center;
+}

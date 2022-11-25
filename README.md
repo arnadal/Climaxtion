@@ -1,2 +1,2 @@
 # Climaxtion
-Climaxtion brings possibilities to avoid climate change endure Planet Earth. We using this site, bring forth multiple ways which will contribute to reduction of the adverse effects of climate change.
+Climaxtion brings possibilities to avoid climate change endure Planet Earth. With our site, we introduce several ways, where we all soon shall be contributing to reduce the adverse effects of climate change.

@@ -1,0 +1,21 @@
+:root {
+
+  --colorScheme1: rgb(210, 210, 210);
+  --colorScheme2: rgb(5, 34, 68);
+  --colorScheme3: rgb(12, 55, 104); --colorScheme3_translucent: rgba(12, 55, 104, 0.5);
+  --colorScheme4: rgb(18, 80, 150); --colorScheme4_translucent: rgba(18, 80, 150, 0.5);
+  --colorScheme5: rgb(12, 86, 170);
+  --colorScheme6: rgb(19, 108, 209);
+  --colorScheme7: rgb(0, 119, 255);
+  --colorScheme8: rgb(94, 169, 255);
+  --colorScheme9: rgb(216, 194, 0);
+  --colorScheme10: rgb(202, 255, 103);
+
+  --bodyBackground: var(--colorScheme2);
+  --bodyColor: var(--colorScheme1);
+  --bodyPadding: 15px;
+
+  --divBackground: var(--colorScheme3_translucent);
+  --navbarBackground: var(--colorScheme4_translucent);
+
+}

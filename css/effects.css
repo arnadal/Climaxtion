@@ -1,0 +1,8 @@
+@keyframes hideNavbar {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -10000px;
+  }
+}

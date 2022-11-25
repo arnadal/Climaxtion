@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bodyBackground);
+  padding: var(--bodyPadding);
+}
+
+nav {
+  background: var(--navbarBackground);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5%;
+}
+
+nav a {
+  margin-right: 5%;
+  color: var(--colorScheme9);
+  text-decoration: none;
+  transition: color 1s;
+}
+
+nav.collapsed {
+  animation-name: hideNavbar;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  color: var(--colorScheme10);
+}
