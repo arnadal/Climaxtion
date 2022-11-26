@@ -7,6 +7,11 @@ body {
   padding: var(--bodyPadding);
 }
 
+::selection {
+  background: orange;
+  color: white;
+}
+
 nav {
   background: var(--navbarBackground);
   text-align: center;
@@ -40,6 +45,12 @@ nav a.newtab:hover::after {
   margin-left: 15px;
 }
 
+nav a:hover,
+nav a:active,
+nav a:focus {
+  color: var(--colorScheme10);
+}
+
 nav.collapsed {
   top: -1000px;
   animation-name: hideNavbar;
@@ -54,10 +65,4 @@ nav.uncollapsed {
   animation-iteration-count: 1;
   animation-duration: 0.5s;
   animation-timing-function: linear;
-};
-
-nav a:hover,
-nav a:active,
-nav a:focus {
-  color: var(--colorScheme10);
 }

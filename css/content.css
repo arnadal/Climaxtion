@@ -30,11 +30,13 @@ h6 {  font-size: 1vmin;  }
   margin-top: 10%;
 }
 
-.first_section h1 {
+.first_section h1,
+.first_section h1::selection {
   font-family: 'Press Start 2P', sans-serif;
   filter: drop-shadow(-5px -5px 0px #00000080);
   font-size: 72px;
   background: -webkit-linear-gradient(45deg, var(--bodyColor), var(--bodyColor_dark));
+  background: linear-gradient(45deg, var(--bodyColor), var(--bodyColor_dark));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
