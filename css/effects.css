@@ -3,6 +3,15 @@
     top: 0px;
   }
   to {
-    top: -10000px;
+    top: -1000px;
+  }
+}
+
+@keyframes showNavbar {
+  from {
+    top: -250px;
+  }
+  to {
+    top: 0px;
   }
 }

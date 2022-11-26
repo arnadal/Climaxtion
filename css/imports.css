@@ -1,1 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins&family=Press+Start+2P&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Montserrat:wght@900&family=Poppins&family=Press+Start+2P&family=Rubik+Distressed&display=swap');
+
+@font-face {
+  font-family: Cascadia Mono;
+  font-display: swap;
+  src: url('fonts/CascadiaCode-Regular-VTT.ttf');
+}

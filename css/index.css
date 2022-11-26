@@ -14,7 +14,9 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2.5%;
+  height: 2vmin;
+  padding: 4vmin;
+  z-index: 65536;
 }
 
 nav a {
@@ -22,14 +24,37 @@ nav a {
   color: var(--colorScheme9);
   text-decoration: none;
   transition: color 1s;
+  font-size: 2vmin;
+  user-select: none;
+  font-family: 'Cascadia Code', monospace;
+  font-weight: 600;
+}
+
+nav a.newtab::after {
+  content: "➜";
+  margin-left: 5px;
+  transition: margin-left 1s;
+}
+
+nav a.newtab:hover::after {
+  margin-left: 15px;
 }
 
 nav.collapsed {
+  top: -1000px;
   animation-name: hideNavbar;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 2.5s;
   animation-timing-function: linear;
 }
+
+nav.uncollapsed {
+  top: 0px;
+  animation-name: showNavbar;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+};
 
 nav a:hover,
 nav a:active,
