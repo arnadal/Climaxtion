@@ -35,6 +35,11 @@ nav a {
   font-weight: 600;
 }
 
+nav a:after {
+  margin-left: 5px;
+  content: "\00a0";
+}
+
 nav a.newtab::after {
   content: "➜";
   margin-left: 5px;

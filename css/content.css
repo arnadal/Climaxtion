@@ -62,7 +62,7 @@ footer {
   border-radius: 0;
   width: 100%;
   height: 100%;
-  padding: 8vmin;
+  padding: 5%;
 }
 
 .flexbox *:not(:first-child) {
