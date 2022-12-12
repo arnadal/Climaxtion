@@ -68,6 +68,6 @@ nav.uncollapsed {
   top: 0px;
   animation-name: showNavbar;
   animation-iteration-count: 1;
-  animation-duration: 0.5s;
+  animation-duration: 5s;
   animation-timing-function: linear;
 }
