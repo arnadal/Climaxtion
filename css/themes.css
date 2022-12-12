@@ -3,7 +3,7 @@
   --colorScheme1: rgb(210, 210, 210); --colorScheme1_dark: rgb(90, 90, 90);
   --colorScheme2: rgb(5, 34, 68);
   --colorScheme3: rgb(12, 55, 104); --colorScheme3_translucent: rgba(12, 55, 104, 0.5);
-  --colorScheme4: rgb(18, 80, 150); --colorScheme4_translucent: rgba(18, 80, 150, 0.5);
+  --colorScheme4: rgb(0,0,0,);      --colorScheme4_translucent: rgb(0,0,0) 
   --colorScheme5: rgb(12, 86, 170);
   --colorScheme6: rgb(19, 108, 209);
   --colorScheme7: rgb(0, 119, 255);
