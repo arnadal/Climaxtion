@@ -14,8 +14,8 @@
   --bodyBackground: var(--colorScheme2);
   --bodyColor: var(--colorScheme1); --bodyColor_dark: var(--colorScheme1_dark);
   --bodyPadding: 15px;
+  --bodyFontSize: 1.5vmin;
 
   --divBackground: var(--colorScheme3_translucent);
   --navbarBackground: var(--colorScheme4);
-
 }
