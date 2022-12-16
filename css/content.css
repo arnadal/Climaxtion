@@ -104,3 +104,10 @@ span.definition {
 .definition:hover .topTooltip {
   display: block;
 }
+
+img {
+  width: 90%;
+  height: 45%;
+  border-radius: 15px;
+  margin-left: 5%;
+}
