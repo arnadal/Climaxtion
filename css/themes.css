@@ -1,13 +1,13 @@
 :root {
 
-  --colorScheme1: rgb(210, 210, 210); --colorScheme1_dark: rgb(90, 90, 90);
-  --colorScheme2: rgb(5, 34, 68);
-  --colorScheme3: rgb(12, 55, 104); --colorScheme3_translucent: rgba(12, 55, 104, 0.5);
-  --colorScheme4: rgb(0,0,0,);      --colorScheme4_translucent: rgb(0,0,0) 
+  --colorScheme1: rgb(16, 16, 16); --colorScheme1_dark: rgb(90, 90, 90);
+  --colorScheme2: rgb(177, 214, 255);
+  --colorScheme3: rgb(118, 182, 255); --colorScheme3_translucent: rgba(118, 182, 255, 0.5);
+  --colorScheme4: rgb(50, 135, 231); --colorScheme4_translucent: rgb(50, 135, 231, 0.5);
   --colorScheme5: rgb(12, 86, 170);
   --colorScheme6: rgb(19, 108, 209);
-  --colorScheme7: rgb(0, 119, 255);
-  --colorScheme8: rgb(94, 169, 255);
+  --colorScheme7: rgb(9, 93, 190);
+  --colorScheme8: rgb(8, 85, 173); --colorScheme8_translucent: rgb(8, 85, 173, 0.5);
   --colorScheme9: rgb(216, 194, 0);
   --colorScheme10: rgb(202, 255, 103);
 
@@ -17,5 +17,7 @@
   --bodyFontSize: 1.5vmin;
 
   --divBackground: var(--colorScheme3_translucent);
-  --navbarBackground: var(--colorScheme4);
+  --navbarBackground: var(--colorScheme8_translucent);
+
+  --animate-duration: 1s;
 }
