@@ -14,8 +14,9 @@ body {
 
 nav {
   background: var(--navbarBackground);
-  text-align: center;
+  text-align: left;
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
@@ -41,7 +42,6 @@ nav a:after {
 }
 
 nav a.newtab::after {
-  content: "➜";
   margin-left: 5px;
   transition: margin-left 1s;
 }
