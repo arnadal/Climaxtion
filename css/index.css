@@ -30,7 +30,7 @@ nav a {
   color: var(--colorScheme9);
   text-decoration: none;
   transition: color 1s;
-  font-size: 2vmin;
+  font-size: 100px;
   user-select: none;
   font-family: 'Cascadia Code', monospace;
   font-weight: 600;
