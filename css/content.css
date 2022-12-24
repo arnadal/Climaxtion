@@ -11,6 +11,16 @@ div {
   border-radius: 15px;
 }
 
+.small {
+  height: 100;
+  width: 700px;
+  font-weight: 500;
+}
+
+p {
+  font-size: medium;
+}
+
 h1,
 h2,
 h3,
