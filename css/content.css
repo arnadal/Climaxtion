@@ -13,17 +13,11 @@ div {
 
 .small {
   height: 100;
-  width: 700px;
-  font-weight: 500;
+  width: 50%;
 }
 
 .small_right {
-  margin-left: 500px;
-}
-
-p {
-  font-size: medium;
-  margin-left: 3%;
+  margin-left: 50%;
 }
 
 h1,
@@ -32,10 +26,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Chelsea Market', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1 {  font-size: 10vmin;  }
+h1 {  font-size: 6vmin;  }
 h2 {  font-size: 5vmin;  }
 h3 {  font-size: 4vmin;  }
 h4 {  font-size: 3vmin;  }
@@ -91,7 +85,7 @@ footer {
 
 span.definition {
   position: relative;
-  display: inline-block;
+  display: inline;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: rgb(3, 131, 206);
@@ -99,14 +93,13 @@ span.definition {
 }
 
 .topTooltip {
-  font-size: 12px;
   display: none;
-  width: 10vmin;
+  width: 12.5vmin;
   background-color: #000000B0;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 15px;
   
   /* Position the tooltip */
   position: absolute;
@@ -125,4 +118,16 @@ img {
   height: 45%;
   border-radius: 15px;
   margin-left: 5%;
+}
+
+a {
+  color: var(--colorScheme11);
+  text-decoration: none;
+  transition: color 1s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--colorScheme12);
 }

@@ -11,6 +11,8 @@
 
   --colorScheme9: rgb(216, 194, 0);
   --colorScheme10: rgb(202, 255, 103);
+  --colorScheme11: rgb(92, 83, 0);
+  --colorScheme12: rgb(168, 151, 0);
 
   --bodyBackground: var(--colorScheme2);
   --bodyColor: var(--colorScheme1); --bodyColor_dark: var(--colorScheme1_dark);
