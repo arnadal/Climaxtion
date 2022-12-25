@@ -17,6 +17,10 @@ div {
   font-weight: 500;
 }
 
+.small_right {
+  margin-left: 500px;
+}
+
 p {
   font-size: medium;
   margin-left: 3%;
