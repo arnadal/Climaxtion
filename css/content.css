@@ -42,7 +42,7 @@ h6 {  font-size: 1vmin;  }
 
 .first_section h1,
 .first_section h1::selection {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   filter: drop-shadow(-5px -5px 0px #00000080);
   font-size: 72px;
   background: -webkit-linear-gradient(45deg, var(--bodyColor), var(--bodyColor_dark));
@@ -130,4 +130,11 @@ a:hover,
 a:active,
 a:focus {
   color: var(--colorScheme12);
+}
+
+.nametag small {
+  padding: 5px;
+  background-color: #000000B0;
+  border-radius: 5px;
+  color: white;
 }
