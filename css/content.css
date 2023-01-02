@@ -12,14 +12,14 @@ div {
 }
 
 .small {
-  height: 100;
-  width: 50%;
+  height: auto;
+  width: 60%;
 }
 
 .small_right {
   margin-left: 35%;
-  height: 100;
-  width: 50%;
+  height: auto;
+  width: 65%;
 }
 
 p {
