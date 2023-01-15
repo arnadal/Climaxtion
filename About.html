@@ -1,12 +1,12 @@
 <!--
 
-  Climaxtion - index.html
+  Climaxtion - About.html
   The default page, or homepage, of the website.
 
   Members:
     - AR Nadal Verma
-    - Abeer Bharadwaj
     - Swastik Rawat
+    - Abeer Bharadwaj
     - Jayden Haokip
     - Shrey Singh
 
@@ -26,11 +26,10 @@
     <link rel="stylesheet" href="css/content.css" type="text/css" />
     <link rel="stylesheet" href="css/effects.css" type="text/css" />
     
-   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">   
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/climaxtion.png">
+
     <!-- External Libraries/Frameworks -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -49,44 +48,57 @@
 
     <br id="home">
     <div class="first_section section">
+      <img class="floatRight" src="media/climate-change.png"></img>
       <h1 class="animate__animated animate__backInDown">About</h1>
     </div>
     <br>
 
     <div>
       <h1>What We Are</h1>
-      <p>We're Team Climaxtion. We're dedicated to hugging nature. We spread the awareness to prevent the Earth   from being <span class="definition">endured<span class="topTooltip">endure: suffer patiently; withstand   suffering</span></span> by Climate Change.</p>
-      <br><br>
+      <p>We're Team Climaxtion. We're dedicated to hugging nature. We spread the awareness to prevent the Earth from being <span class="definition">endured<span class="topTooltip">endure: suffer patiently; withstand suffering</span></span> by Climate Change.</p>
       <h1>Our Goal</h1>
-      <p>We intend on reducing greenhouse gases and the greenhouse effect entirely. Our team (linked to our team with a smooth scroll) is willing to do anything to help reduce climate change and stop climate change for once.  We all know this task is nothing but a major burden and is a very gradual process. But, with your help, we can make this reality come true fast and swiftly, so that future generations won't have to suffer.
-        This is, however, possible only with your assistance.</p>
-      <p>Who all are involved in making this project? <br>
-        You and <a href="#team">us</a>.</p>
+      <p>We intend on reducing greenhouse gases and the greenhouse effect entirely. Our team is willing to do anything to help reduce climate change and stop climate change for once.  We all know this task is nothing but a major burden and is a very gradual process. But, with your help, we can make this reality come true fast and swiftly, so that future generations won't have to suffer. This is, however, possible only with your assistance.</p>
+      <p>Who all are involved in making this project?<br>
+      You and <a href="#team">us</a>.</p>
       <br>
       <br>
     </div>
-
+    <br>
     <br>
     <footer id="team">
       <div class="flexbox">
         <div>
           <h3>Meet our Team</h3>
           <p>
-            Abeer Bharadwaj<br>
             AR Nadal Verma<br>
+            Swastik Rawat<br>
+            Abeer Bharadwaj<br>
             Jayden Haokip<br>
-            Shrey Singh<br>
-            Swastik Rawat
+            Shrey Singh
           </p>
+          <h3>Get in Touch</h3>
+          <p>7A Room Number 73,<br>H596+PPV Tagore International School,<br>Paschimi Marg, Block C, Vasant Vihar,<br>New Delhi, Delhi 110057</p>
         </div>
         <div>
-          <h3>Get in Touch</h3>
-          <p>7A Room Number 73, H596+PPV Tagore International School,<br>Paschimi Marg, Block C, Vasant Vihar,<br>New Delhi, Delhi 110057</p>
+          <h3>Miscallaneous</h3>
+          <div id="copyright">
+            <a href="#copyright" onclick="showCopyright()">Copyright</a>
+          </div>
+          <br>
+          <div id="themeSwitcher">
+            <a href="#themeSwitcher" onclick="showThemeSwitcher()">Switch Themes</a>
+          </div>
+          <br>
+          <div id="themeSwitcher">
+            <a href="https://github.com/arnadal/Climaxtion" target="_blank">GitHub Repository</a>
+          </div>
         </div>
       </div>
     </footer>
-<br><br><br><br><br><br><br><br><br><br><br>
+
+    <script src="js/index.js"></script>
     <script src="js/effects.js"></script>
+    <script src="js/themes.js"></script>
   </body>
 
 </html>

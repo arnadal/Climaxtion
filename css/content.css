@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 body {
   color: var(--bodyColor);
   font-family: 'Poppins', sans-serif;
@@ -17,7 +21,7 @@ div {
 }
 
 .small_right {
-  margin-left: 20%;
+  margin-left: 35%;
   height: auto;
   width: 60%;
 }
@@ -42,6 +46,23 @@ h3 {  font-size: 4vmin;  }
 h4 {  font-size: 3vmin;  }
 h5 {  font-size: 2vmin;  }
 h6 {  font-size: 1vmin;  }
+
+button {
+  background-color: var(--colorScheme4);
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s, border-radius 1s;
+}
+
+button:hover,
+button:active,
+button:focus {
+  background-color: var(--colorScheme5);
+  border-radius: 15px;
+}
 
 .first_section {
   margin-top: 7.5%;
@@ -123,10 +144,13 @@ span.definition {
 }
 
 img {
-  width: 90%;
-  height: 45%;
+  width: 15%;
   border-radius: 15px;
   margin-left: 5%;
+}
+
+img.floatRight {
+  float: right;
 }
 
 a {
@@ -139,7 +163,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: var(--colorScheme12);
+  color: var(--colorScheme11);
   text-shadow: 0px 0px 10px rgb(154, 205, 50, 0.5);
 }
 
