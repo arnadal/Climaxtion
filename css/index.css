@@ -8,13 +8,13 @@ body {
 }
 
 ::selection {
-  background: orange;
+  background: rgb(145, 255, 0);
   color: white;
 }
 
 nav {
   background: var(--navbarBackground);
-  text-align: left;
+  text-align: center;
   position: fixed;
   display: block;
   top: 0;
@@ -32,7 +32,7 @@ nav a {
   transition: color 1s;
   font-size: 2vmin;
   user-select: none;
-  font-family: 'Cascadia Code', monospace;
+  font-family: 'Readex Pro', sans-serif;
   font-weight: 600;
 }
 

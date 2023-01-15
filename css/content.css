@@ -44,7 +44,8 @@ h5 {  font-size: 2vmin;  }
 h6 {  font-size: 1vmin;  }
 
 .first_section {
-  margin-top: 10%;
+  margin-top: 7.5%;
+  padding: 2.5%;
 }
 
 .first_section h1,
@@ -80,6 +81,8 @@ footer {
   width: 100%;
   height: 100%;
   padding: 5%;
+  align-items: center;
+  justify-content: center;
 }
 
 .flexbox *:not(:first-child) {
@@ -97,19 +100,17 @@ span.definition {
   text-decoration-style: solid;
   text-decoration-color: rgb(3, 131, 206);
   text-decoration-thickness: 2.5px;
-  width:10%
+  width: 10%;
 }
 
 .topTooltip {
   display: none;
-  width: 12.5vmin;
+  width: 15vmin;
   background-color: #000000B0;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 15px;
-  
-  /* Position the tooltip */
+  padding: 10px;
   position: absolute;
   z-index: 69;
   bottom: 100%;
@@ -131,18 +132,24 @@ img {
 a {
   color: var(--colorScheme11);
   text-decoration: none;
-  transition: color 1s;
+  text-shadow: 0px 0px 5px rgba(255, 255, 0, 0.5);
+  transition: color 1s, text-shadow 1s;
 }
 
 a:hover,
 a:active,
 a:focus {
   color: var(--colorScheme12);
+  text-shadow: 0px 0px 10px rgb(154, 205, 50, 0.5);
 }
 
 .nametag small {
-  padding: 5px;
+  padding: 7.5px;
   background-color: #000000B0;
-  border-radius: 5px;
+  border-radius: 100px;
   color: white;
+}
+
+br {
+  user-select: none;
 }
